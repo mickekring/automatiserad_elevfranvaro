@@ -1,1 +1,1 @@
-# automatiserad_elevfranvaro
+# Automatiserad och robotiserad kontroll av elevfrånvaro
