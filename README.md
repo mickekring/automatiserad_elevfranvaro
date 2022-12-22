@@ -21,8 +21,15 @@ Dagens frånvaro baserat på varje klass
 
 ### Du behöver
 * En webbserver med SFTP för uppladdning av frontend
-* En dator som är uppkopplad mot Stockholms stads nät, inloggad med ett riktigt konto
+* En dator med Python 3.x som är uppkopplad mot Stockholms stads nät, inloggad med ett riktigt konto
 
 ### Installera
-* Installera alla moduler som du hittar under import-sektionen längst upp i main.py
-* Ladda upp filerna 
+* Installera alla moduler som du hittar under import-sektionen längst upp i main.py med pip3 install
+* Ladda upp filerna i mappen __upload_to_server__ till webbservern
+* Ändra alla inställningar i __config.yml__
+
+## Frågor?
+Då är det bara att höra av dig till mig på jag@mickekring.se eller mickekring i de flesta sociala medier
+
+## Läs mer
+Du kan läsa lite mer om detta på https://mickekring.se/automatiserad-och-robotiserad-kontroll-av-elevfranvaro/
