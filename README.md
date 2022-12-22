@@ -1,6 +1,6 @@
 # Automatiserad och robotiserad kontroll av elevfrånvaro
 
-Det här är ett script i flera delar som i kort laddar ned en aktuell frånvarorapport på eleverna på Årstaskolan från Stockholms Skolplattform. Därefter läses antalet elever in baserat på klass och sparas i en databas. Ett antalberäkningar senare så spottas lite webbsidor ut som laddas upp på din webbserver. Detta sker typ var 4-5 minut och vips så kan alla ta del av nästan realtidsstatistik kring elevernas frånvaro.
+Det här är ett script i flera delar som i kort laddar ned en aktuell frånvarorapport på eleverna på Årstaskolan från Stockholms Skolplattform. Därefter läses antalet elever in baserat på klass och sparas i en databas. Ett antal beräkningar senare så spottas lite webbsidor ut som laddas upp på din webbserver. Detta sker typ var 4-5 minut och vips så kan alla ta del av nästan realtidsstatistik kring elevernas frånvaro. Klassisk robotisering.
 
 ![elevfranvaro](https://user-images.githubusercontent.com/10948066/209207846-3c4c4176-9447-4187-88d8-3d86dbcece59.jpg)
 Överbklick av frånvaro med gårdagens siffror inom parentes
