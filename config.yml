@@ -1,0 +1,193 @@
+
+# VERSION INFO
+
+version:
+  number: "1.40"
+  date: "2022-12-22"
+
+
+
+# STUDENT DATA
+
+# Fyll i antal elever. Lägg till eller ta bort klasser. c03 är åk 0-4, c46 åk 4-6 och c79 åk 7-9
+
+number_of_pupils:
+  total: 1008
+  c03: 380
+  c46: 286
+  c79: 342
+  0A: 29
+  0B: 28
+  0C: 28
+  1A: 27
+  1B: 28
+  1C: 27
+  2A: 28
+  2B: 26
+  2C: 27
+  3A: 26
+  3B: 26
+  3C: 27
+  3D: 26
+  3E: 27
+  4A: 27
+  4B: 29
+  4C: 28
+  4D: 28
+  5A: 26
+  5B: 25
+  5C: 25
+  5D: 25
+  6A: 24
+  6B: 25
+  6C: 24
+  7A: 29
+  7B: 30
+  7C: 30
+  7D: 28
+  8A: 30
+  8B: 30
+  8C: 30
+  8D: 30
+  9A: 29
+  9B: 24
+  9C: 28
+  9D: 24
+
+
+
+# RPA
+
+# Lägg till eller ta bort klasser som ska kollas.
+
+rpa:
+  list: "0A,0B,0C,1A,1B,1C,2A,2B,2C,3A,3B,3C,3D,3E,4A,4B,4C,4D,5A,5B,5C,5D,6A,6B,6C,7A,7B,7C,7D,8A,8B,8C,8D,9A,9B,9C,9D"
+
+
+
+classes_and_sections:
+
+  # Samma lista som ovan, med alla klasser.
+  
+  pupil_groups: ["0A", "0B", "0C", "1A", "1B", "1C", "2A", "2B", "2C", 
+  "3A", "3B", "3C", "3D", "3E", "4A", "4B", "4C", "4D", "5A", "5B", "5C", "5D", "6A", 
+  "6B", "6C", "7A", "7B", "7C", "7D", "8A", "8B", "8C", "8D", "9A", "9B", "9C", "9D"]
+
+  # Samma lista som ovan, med alla klasser.
+  
+  pupil_groups_set: ["0A", "0B", "0C", "1A", "1B", "1C", "2A", "2B", "2C", 
+  "3A", "3B", "3C", "3D", "3E", "4A", "4B", "4C", "4D", "5A", "5B", "5C", "5D", "6A", 
+  "6B", "6C", "7A", "7B", "7C", "7D", "8A", "8B", "8C", "8D", "9A", "9B", "9C", "9D"]
+
+  # Alla klasser i åk 0-3
+  
+  pupil_groups_03: ["0A", "0B", "0C", "1A", "1B", "1C", "2A", "2B", "2C", 
+  "3A", "3B", "3C", "3D", "3E"]
+
+  # Alla klasser i åk 4-6
+  
+  pupil_groups_46: ["4A", "4B", "4C", "4D", "5A", "5B", "5C", "5D", "6A", "6B", "6C"]
+  
+  # Allla klasser i åk 7-9
+
+  pupil_groups_79: ["7A", "7B", "7C", "7D", "8A", "8B", "8C", "8D", "9A", "9B", "9C", "9D"]
+
+  # Stadier
+  
+  pupil_sections: ["F-3", "4-6", "7-9"]
+
+
+
+word_to_remove:
+
+  # Rör ej
+  
+  list: ['Klass', 'Namn', 'Rapporten kan innehålla sekretessmarkerade personer märkta (Sekretess)', 
+  'Från och med', 'Till och med', 'Frånvaroanmälan för elev', 'Skola', 'Årstaskolan', 'den ']
+
+
+
+# PATHS
+
+chromedriver:
+
+  # Ladda ned Chromedriver som passar till din version av Google Chrome på en
+  # skrivbar yta. I detta fall har jag valt min hemkatalog på nätverket.
+  
+  path: "H:\\kod\\chromedriver.exe"
+
+
+
+excel_file:
+
+  # Ändra XX12345 till ditt kontonamn i staden.
+  
+  file_source: "c:\\Users\\XX12345\\Downloads\\report.xls"
+  file_source_student: "c:\\Users\\XX12345\\Downloads\\report_students.xls"
+  file_destination: "c:\\kod\\report.xls"
+  file_destination_student: "c:\\kod\\report_students.xls"
+
+
+
+paths:
+
+  # Ändra XX12345 till ditt kontonamn i staden.
+  # Ändra remoteurlpath till där du ska ladda upp filerna på din webbserver.
+  
+  localurlpath: 'c:\\kod\\'
+  remoteurlpath: '/var/www/dinwebbplats/elevfranvaro/'
+  download: 'c:\\Users\\XX12345\\Downloads\\Report*'
+
+
+
+# CREDENTIALS
+
+# Fyll i SFTP-uppgifter till din webbserver
+
+sftp:
+  
+  username: www-user
+  password: Password123
+  host: 11.22.33.44
+  port: 22
+
+
+
+teams:
+
+  # Om du använder del 2 i scriptet som letar efter elever och vill att scriptet ska
+  # posta i ditt team, fyll då i adressen till web hook.
+
+  url: "https://elevstockholm.webhook.office.com/webhookb2/..........-8c075dd8fadb"
+
+
+user:
+
+  # Fyll i dina användaruppgifter i staden
+  
+  username: "XX12345"
+  password: "Password123"
+
+
+
+resurs:
+
+  # Om du använder del 2 i scriptet som letar efter elever, fyller du i dessa här.
+
+  elever: [{'name': 'Andersson, Fiat', 'class': '2C', 'resource': 'Resursperson 1 ledig att användas'}
+  , {'name': 'Andersson, Nissan', 'class': '2C', 'resource': 'Resursperson 2 ledig att användas'}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

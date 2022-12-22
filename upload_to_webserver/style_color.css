@@ -1,0 +1,448 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: #4158D0;
+    background-image: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+p.num_mod {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+p.class-mod {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.col.minimod {
+    margin: 10px;
+    padding: 0px 10px 0px 0px;
+    background: #323133;
+}
+
+.row.modrow {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+strong {
+    font-weight: 700;
+}
+
+p.version {
+    font-size: 11px;
+    color: #b4b4b4;
+}
+
+p {
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+p.cattitle {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: -15px;
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+span.yesterday {
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    top: -13px;
+    left: 4px;
+}
+
+p.infotext {
+    color: #ffffffb5;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+p.infotextleft {
+    color: #ffffffb5;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+p.smallinfo {
+    color: #c1c0c0;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: -4px;
+}
+
+.row {
+    padding: 14px;
+}
+
+.col {
+    background: #111111cf;
+    color: #fff;
+    border-radius: 14px;
+    padding: 22px 22px 10px 22px;
+}
+
+.col.box1 {
+    margin-right: 11px;
+    background: #3a2d63eb;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.col.box2 {
+    margin-left: 11px;
+    margin-right: 11px;
+    background: #3a2d63eb;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.col.box3 {
+    margin-left: 11px;
+    background: #3a2d63eb;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.col.box4 {
+    margin-right: 11px;
+    background: #3a2d63eb;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+}
+
+.col.box5 {
+    margin-left: 11px;
+    margin-right: 11px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+
+.col.box6 {
+    margin-left: 11px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+
+i.far.fa-arrow-alt-circle-down {
+    position: relative;
+    font-size: 36px;
+    top: 3px;
+    left: -4px;
+}
+
+i.far.fa-arrow-alt-circle-up {
+    position: relative;
+    font-size: 36px;
+    top: 3px;
+    left: -4px;
+}
+
+i.far.fa-arrow-alt-circle-right {
+    position: relative;
+    font-size: 36px;
+    top: 3px;
+    left: -4px;
+}
+
+p.boxtitle {
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+
+p.boxnumber {
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+}
+
+a:hover {
+    color: #f29f1c;
+}
+
+.card.card-body {
+    background: #383838;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    color:  #fff;
+    border: 0px;
+}
+
+.div1-half-top {
+    color: #fff;
+    background-color: #111111cf;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bg-warning {
+    background-color:  #ff9007 !important;
+}
+
+
+.progress {
+    margin-bottom: 18px;
+    background-color: #00000078;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #111111;
+}
+
+.div2.table {
+    border-spacing: 0px 14px;
+    border-radius: 14px;
+    padding-top: 10px;
+}
+
+/*
+
+
+*/
+
+/* ############## DIVS ############## */
+
+
+
+
+
+/* ############ FONTS ############ */
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h1.clock {
+    font-size: 58px;
+    font-weight: 600;
+    margin-top: 22px;
+}
+
+h1.available {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+h2.calheading {
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 2px;
+    margin-bottom: 16px;
+}
+
+h2.calheadingbox {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.div1 h1, .div2 h1, .div3 h1, .div4 h1, .div5 h1, .div6 h1 {
+    font-size: 54px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+p.calfont {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+p.calfontdate {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+p.calfontsource {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+p.boxp {
+    font-size: 16px;
+}
+
+p.tim {
+    font-size: 16px;
+    margin-top: -14px;
+    text-align: center;
+}
+
+/* ########### VIDEO & IMAGES ############ */
+
+#videoBG {
+    position: absolute;
+    width: 100%;
+    top: -10px;
+    left: -120px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.div3 img {
+
+    width: 246px;
+    margin-top: 15px;
+}
+
+.div4 img {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    height: 150px;
+}
+
+/* ########### MISC ########### */
+
+.progress {
+	height: 40px;
+	margin-top: 18px;
+	background-color: #333333eb;
+}
+
+.progress-bar {
+	font-size: 18px;
+    line-height: 42px;
+}
+
+.progress-bar-warning {
+    background-color: #ffa500;
+}
+
+.progress-bar-danger {
+    background-color: #971516;
+}
+
+th.first {
+    width: 20%;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+th.second {
+    width: 50%;
+    background: #383838;
+}
+
+th.third {
+    width: 20%;
+    background: #525151;
+}
+
+th.third p.calfont {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fa, .far, .fas {
+    font-weight: 600 !important;
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1305px) {
+  
+    p.boxtitle {
+    font-size: 17px;
+    margin-top: -14px;
+    }
+
+    i.far.fa-arrow-alt-circle-up {
+    top: 6px;
+    }
+
+    i.far.fa-arrow-alt-circle-down {
+    top: 6px;
+    }
+
+    i.far.fa-arrow-alt-circle-right {
+    top: 6px;
+    }
+
+    h1.clock {
+    font-size: 44px;
+    }
+
+    h2.calheading {
+    font-size: 22px;
+    }
+
+    p.cattitle {
+    font-size: 14px;
+    }
+
+    p.infotext {
+    font-size: 12px;
+    }
+
+}
+
+
